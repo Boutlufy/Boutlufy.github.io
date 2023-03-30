@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <title>
+            Boutnaruto
+        </title>
+        
+        <style>
+            
+            body{
+                margin: 0;
+                background-color: rgb(0, 0, 0);
+                font-family: 'Kenia', cursive;
+                color: aliceblue;
+                background: linear-gradient(90deg, #ff7100 0%, #ffffff 100%)
+            }
+            header{
+                background-color: bisque;
+                height: 90px;
+                overflow: hidden;
+                
+            }
+            nav{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
+            nav ul li{
+                display: inline-block;
+                list-style: none;
+                margin: 10px 20px;
+            }  
+            nav ul li a{
+                color: black;
+                text-decoration: none;
+                font-size: 25px;
+            }
+            .logo{
+                height: 75px;
+                margin: 6px;
+            }
+            .narimg{
+                margin: 5%;
+                width: 40%;
+                height: 50%;
+                border-radius: 20px;
+            }
+            * {
+                box-sizing: border-box;
+                
+            } 
+            .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 300px; 
+            } 
+            .row:after {
+            content: "";
+            display: table;
+            clear: both;
+            }
+            @media screen and (max-width: 600px) {
+                .column {
+                    width: 100%;
+                    
+                }
+            } 
+            .konoha{
+                background-image: url(konoha.jpg);
+                width: 100%;
+                height: 720px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                text-align: center;
+                color: rgba(255, 255, 255, 0.884);
+                font-family: 'Kenia', cursive;
+                
+            }
+            .kono{
+                color: rgba(19, 32, 19, 0.877);
+                padding-top: 10%;
+                font-size: 600%;
+                font-family: 'Kenia', cursive;
+            }
+            .konop{
+                font-size: 150%;
+                text-align: center;
+                font-family: 'Kenia', cursive;
+
+            }
+            .headright{
+                float: right;
+                color: black;
+            }
+            ul{
+                text-decoration: none;         
+                list-style: none;
+                font-weight: 700;
+                -webkit-text-stroke-width: 0.5px;
+                -webkit-text-stroke-color: black;
+            } 
+            .home{
+                border-style: none;
+                border-radius: 5px;
+                padding: 15% 15%;
+                background-color: rgb(13,61,143);
+                color: aliceblue;
+                font-family: 'Rubik Vinyl', cursive;
+            }
+            .home:hover {
+                background-color: rgb(255, 166, 0);
+                border-style:none
+            }
+            .buy:hover {
+                background-color: rgb(255, 166, 0);
+                border-radius: 8px;
+            }
+        </style>           
+    </head>
+    <body>
+        <header>
+            <nav>
+            <img src="./Boutnaruto_files/logo.png" class="logo">
+                <ul>                
+                    <li><a href="#" class="home">HOME</a></li>
+                    <li class="buy"><a href="https://9anime.vc/watch/naruto-677?ep=12384">Watch</a></li>  
+                    <li class="buy"><a href="#">Buy Merchandise</a></li>
+                    <li class="buy"><a href="contact.html" class="cont">Contact</a></li>
+                </ul> 
+            </nav>                        
+        </header>
+        <div class="row">
+            <img src="./Boutnaruto_files/naruto.png" class="narimg">
+        <div class="column">
+            <h1 class="content"><br><br>About Naruto Uzumaki </h1>
+            <p class="content1">Naruto Uzumaki (うずまきナルト, Uzumaki Naruto) is a shinobi of Konohagakure's Uzumaki clan. He became the jinchūriki of the Nine-Tails on the day of his birth — a fate that caused him to be shunned by most of Konoha throughout his childhood. </p>            
+        </div>
+        <div class="konoha">
+            <h1 class="kono">KONOHA</h1>
+            <p class="konop"><b>
+            Konoha resides deep within a forest at the base of a mountain known as the Hokage Rock, which has the faces of all those who 
+            have taken the office of Hokage engraved on it. It is surrounded on all sides by enormous walls. While generally seen as the 
+            most powerful of the ninja villages.</b>
+            </p>
+        </div>
+
+        </div>
+    
+</body></html>
